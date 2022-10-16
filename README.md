@@ -35,8 +35,8 @@ Everything related to React environment will use the `r` prefix.
 
 These modifiers, at the moment, are available only within a React environment. They must be added at the end of the ***snippet query*** and must be in alphabetical order.
 
-- n → It means that your current ***.tsx/.jsx*** file is nested into a folder. If used it will automatically set the created function’s name to be the same as the folder above (*father*) your file.
-- t → This indicates that you want to use the TypeScript variant, if exists, of this snippet.
+- `n` → It means that your current ***.tsx/.jsx*** file is nested into a folder. If used it will automatically set the created function’s name to be the same as the folder above (*father*) your file.
+- `t` → This indicates that you want to use the TypeScript variant, if exists, of this snippet.
 
 ## Hooks
 
