@@ -1,31 +1,31 @@
 # React Fast and Productive Extension
 
-start + modifier + (action || hook) + variant
+`start` + ((`modifier` + `action`) || `hook`) + `variant`
 
 ## Starts with
 
-- r  → Refers to React.js environment;
-- rn → Refers to **R**eact **N**ative environment;
-- js → JavaScript.
+- `r`  → Refers to **R**eact environment;
+- `rn` → Refers to **R**eact **N**ative environment;
+- `js` → **J**ava**S**cript.
 
 ## Modifiers
 
-- e → export;
-- ed → export default;
-- a → async.
+- `e` → export;
+- `ed` → export default;
+- `a` → async.
 
 ## Action
 
-- f → function;
-- c → função com constante;
-- s → styles;
-- sb → style block;
-- sc → styled components.
+- `f` → function;
+- `c` → função com constante;
+- `s` → styles;
+- `sb` → style block;
+- `sc` → styled components.
 
 ## Variants (if available)
 
-- n → nested (set component name same as folder name);
-- t → use the TypeScript variant.
+- `n` → nested (set component name same as folder name);
+- `t` → use the TypeScript variant.
 
 # Using with React
 
@@ -33,9 +33,9 @@ Everything related to React environment will use the `r` prefix.
 
 ## Specials Variant
 
-These modifiers, at the moment, are available only within a React environment. They must be added at the end of the **************snippet query************** and must be in alphabetical order.
+These modifiers, at the moment, are available only within a React environment. They must be added at the end of the ***snippet query*** and must be in alphabetical order.
 
-- n → It means that your current ******.tsx******/****.jsx**** file is nested into a folder. If used it will automatically set the created function’s name to be the same as the folder above (*father*) your file.
+- n → It means that your current ***.tsx/.jsx*** file is nested into a folder. If used it will automatically set the created function’s name to be the same as the folder above (*father*) your file.
 - t → This indicates that you want to use the TypeScript variant, if exists, of this snippet.
 
 ## Hooks
@@ -44,12 +44,12 @@ Can replace the modifiers and starts with ***u** (use)* followed by the first le
 
 | Snippet | Content |
 | --- | --- |
-| rue | React useEffect |
-| rus | React useState |
+| `rue` | ***R***eact ***u***se***E***ffect |
+| `rus` | ***R***eact ***u***se***S***tate |
 
 ## Exporting Components
 
-By default, when you use the snippet to create/export a function/component it will use the current ******.tsx******/****.jsx**** to set its name. If you want it to use the folder’s name it is nested in, use the ******n****** variant, as you can see [here](https://www.notion.so/React-snippets-extension-c51c0922967f4f12bc0fe69b2fda9aae)
+By default, when you use the snippet to create/export a function/component it will use the current ***.tsx/.jsx*** to set its name. If you want it to use the folder’s name it is nested in, use the ***n*** variant, as you can see [here](https://github.com/evertonvargas/react-snippets-extension/edit/vscode-extension/README.md#specials-variant)
 
 ### React ( .js and Native)
 
@@ -57,24 +57,24 @@ When you are creating a new component you can use the following snippets to auto
 
 | Snippet | Content |
 | --- | --- |
-| ref | React Export Function |
-| redf | React Export Default Function |
-| recf | React Export Const Function |
-| redcf | React Export Default Const Function |
+| `ref` | ***R***eact ***E***xport ***F***unction |
+| `redf` | ***R***eact ***E***xport ***D***efault ***F***unction |
+| `recf` | ***R***eact ***E***xport ***C***onst ***F***unction |
+| `redcf` | ***R***eact ***E***xport ***D***efault ***C***onst ***F***unction |
 
 If you need a typescript function with a Props Interface, you can just add a ***t*** to the end of the snippet:
 
 | Snippet | Content |
 | --- | --- |
-| reft | React Export Function (TypeScript) |
-| redft | React Export Default Function (TypeScript) |
+| `reft` | ***R***eact ***E***xport ***F***unction (***T***ypeScript) |
+| `redft` | ***R***eact ***E***xport ***D***efault ***F***unction (***T***ypeScript) |
 
-Now, if you want to go wild and use the ******nested* and *typescript* variant **AT THE SAME TIME** (*insane…*) you should do this way:
+Now, if you want to go wild and use the *nested* and *typescript* variant **AT THE SAME TIME** (*insane…*) you should do this way:
 
 | Snippet | Content |
 | --- | --- |
-| refnt | React Export Function (Nested and TypeScript) |
-| redfnt | React Export Default Function (Nested and TypeScript) |
+| `refnt` | ***R***eact ***E***xport ***F***unction (***N***ested and ***T***ypeScript) |
+| `redfnt` | ***R***eact ***E***xport ***D***efault ***F***unction (***N***ested and ***T***ypeScript) |
 
 ### React Native (only)
 
@@ -82,11 +82,11 @@ Everything exclusively related to React Native will use the `rn` prefix. When yo
 
 | Snippet | Content |
 | --- | --- |
-| rns | React Native Styles |
-| rnsb | React Native Style Block |
-| rnsc | React Native Styled Components |
+|`rns`| ***R***eact ***N***ative ***S***tyles |
+|`rnsb` | ***R***eact ***N***ative ***S***tyle ***B***lock |
+|`rnsc` | ***R***eact ***N***ative ***S***tyled ***C***omponents |
 
-These only work on *******.ts/.js******* files, because are intended to be used as styles snippets
+These only work on ***.ts/.js*** files, because are intended to be used as styles snippets
 
 # Using with JavaScript/TypeScript
 
@@ -94,10 +94,10 @@ Everything related to JavaScript will use the `js` prefix. You can create functi
 
 | Snippet | Content |
 | --- | --- |
-| jsf | JavaScript Function |
-| jscf | JavaScript Const Function |
-| jsaf | JavaScript Async Function |
-| jsac | JavaScript Async Const Function |
+| `jsf` | ***J***ava***S***cript ***F***unction |
+| `jscf` | ***J***ava***S***cript ***C***onst ***F***unction |
+| `jsaf` | ***J***ava***S***cript ***A***sync ***F***unction |
+| `jsac` | ***J***ava***S***cript ***A***sync ***C***onst ***F***unction |
 
 ## JavaScript/TypeScript Utils
 
@@ -105,12 +105,12 @@ This section still in development and will be completed in future updates. Right
 
 ### Fetch
 
-Here you can see some snippets to create a ******.fetch******. Te *async* one will create a 
+Here you can see some snippets to create a ***.fetch***. Te *async* one will create a 
 
 | Snippet | Content |
 | --- | --- |
-| jsfetch | JavaScript Fetch |
-| jsafetch | JavaScript Async Fetch |
+| `jsfetch` | ***J***ava***S***cript ***F***etch |
+| `jsafetch` | ***J***ava***S***cript ***A***sync ***F***etch |
 
 ## Contribution
 Any contribution you make will be **much appreciated**.
