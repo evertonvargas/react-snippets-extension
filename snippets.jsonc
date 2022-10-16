@@ -1,0 +1,141 @@
+{
+  "React Export Function": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "ref",
+    "body": [
+      "export function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}(){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "React Function Component Folder"
+  },
+  "React Export Function Typescript": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "reft",
+    "body": [
+      "interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props{}",
+      "",
+      "export function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}(){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "React Export Function Typescript"
+  },
+  "React Export Const": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "rec",
+    "body": [
+      "export const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/} = () => {",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "React Const Folder "
+  },
+  "React Export Function File": {
+    "prefix": "reffile",
+    "body": [
+      "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(){",
+      "  $0",
+      "}"
+    ],
+    "description": "React Export Function File"
+  },
+  "React Export Const File": {
+    "prefix": "recfile",
+    "body": [
+      "export const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} = () => {",
+      "  $0",
+      "}"
+    ],
+    "description": "React Export Function File"
+  },
+  "Javascript Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "jf",
+    "body": ["function ${1}(){", "  $0", "}"],
+    "description": "React Function"
+  },
+  "Javascript Const": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "jc",
+    "body": ["const ${1} = () => {", "  $0", "}"],
+    "description": "React Function"
+  },
+  "Javascript Async Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "jaf",
+    "body": ["async function ${1}(){", "  $0", "}"],
+    "description": "React Function"
+  },
+  "Javascript Async Const": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "jac",
+    "body": ["const ${1} = async () => {", "  $0", "}"],
+    "description": "React Function"
+  },
+  "React useEffect": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "ue",
+    "body": ["useEffect(()=>{", "  $0", "},[]);\n"],
+    "description": "React useEffect "
+  },
+  "React useState": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "us",
+    "body": ["const [$1, ${1/(.)(.*)/set${1:/upcase}$2/}] = useState($0);\n"],
+    "description": "React useEffect "
+  },
+  "Import useState": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "ius",
+    "body": ["import { useState } from \"react\";$0\n"],
+    "description": "React useEffect "
+  },
+  "Import useEffect": {
+    "prefix": "iue",
+    "body": ["import { useEffect } from \"react\";$0\n"],
+    "description": "React useEffect "
+  },
+  "Import useState & useEffect": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "iuse",
+    "body": ["import { useState, useEffect } from \"react\";$0\n"],
+    "description": "React useEffect "
+  },
+  "Import useEffect & useState": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "iues",
+    "body": ["import { useState, useEffect } from \"react\";$0\n"],
+    "description": "React useEffect "
+  },
+  "React Native Styles": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "rns",
+    "body": [
+      "import { StyleSheet } from \"react-native\";",
+      "",
+      "export const styles = StyleSheet.create({",
+      "  $0",
+      "})"
+    ],
+    "description": "React Native Styles"
+  },
+  "React Native Block Styles": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "rnb",
+    "body": ["${1}: {", " $0", "}"],
+    "description": "React Native Block Styles"
+  },
+  "React Native Styled Components": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "rnsc",
+    "body": ["export const $1 = styled.$2`", "  $0", "`;"],
+    "description": "React Native Styled Components"
+  }
+}
