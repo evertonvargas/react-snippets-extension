@@ -49,7 +49,7 @@ Can replace the modifiers and starts with ***u** (use)* followed by the first le
 
 ## Exporting Components
 
-By default, when you use the snippet to create/export a function/component it will use the current ***.tsx/.jsx*** to set its name. If you want it to use the folder’s name it is nested in, use the ***n*** variant, as you can see [here](https://github.com/evertonvargas/react-snippets-extension/blob/vscode-extension/README.md#specials-variant)
+By default, when you use the snippet to create/export a function/component it will use the current ***.tsx/.jsx*** to set its name. If you want it to use the folder’s name it is nested in, use the ***n*** variant, as you can see [here](https://github.com/evertonvargas/react-snippets-extension/tree/vscode-extension#specials-variant)
 
 ### React ( .js and Native)
 
