@@ -1,0 +1,238 @@
+{
+  "🚀React Export Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "ref",
+    "body": [
+      "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Function"
+  },
+  "🚀React Export Const Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "recf",
+    "body": [
+      "export const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} = () => {",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Const Function"
+  },
+  "🚀React Export Default Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "redf",
+    "body": [
+      "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Default Function"
+  },
+  "🚀React Export Default Const Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "redcf",
+    "body": [
+      "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} = () => {",
+      "  return(",
+      "    $0",
+      "  );",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g};"
+    ],
+    "description": "🚀React Export Default Const Function"
+  },
+  "🚀React Export Function Typescript": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "reft",
+    "body": [
+      "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props{}",
+      "",
+      "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}({}:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Function Typescript"
+  },
+  "🚀React Export Default Function Typescript": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "redft",
+    "body": [
+      "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props{}",
+      "",
+      "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}({}:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Default Function Typescript"
+  },
+  "🚀React Export Function Nested": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "refn",
+    "body": [
+      "export function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}(){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "React Export Function Nested"
+  },
+  "🚀React Export Const Function Nested": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "recfn",
+    "body": [
+      "export const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/} = () => {",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Const Function Nested"
+  },
+  "🚀React Export Default Function Nested": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "redfn",
+    "body": [
+      "export default function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}(){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "React Export Default Function Nested"
+  },
+  "🚀React Export Default Const Function Nested": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "redcfn",
+    "body": [
+      "const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/} = () => {",
+      "  return(",
+      "    $0",
+      "  );",
+      "}",
+      "",
+      "export default ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/};"
+    ],
+    "description": "🚀React Export Default Const Function Nested"
+  },
+  "🚀React Export Function Nested Typescript": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "refnt",
+    "body": [
+      "interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props{}",
+      "",
+      "export function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}({}:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "🚀React Export Function Nested Typescript"
+  },
+  "🚀React Export Default Function Nested Typescript": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "redfnt",
+    "body": [
+      "interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props{}",
+      "",
+      "export default function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}({}:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props){",
+      "  return(",
+      "    $0",
+      "  );",
+      "}"
+    ],
+    "description": "React Export Default Function Nested Typescript"
+  },
+  "🚀React useEffect": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": ["rue"],
+    "body": ["useEffect(()=>{", "  $0", "},[]);"],
+    "description": "🚀React useEffect "
+  },
+  "🚀React useState": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": ["rus"],
+    "body": ["const [$1, ${1/(.)(.*)/set${1:/upcase}$2/}] = useState($0);"],
+    "description": "🚀React useEffect "
+  },
+  "🚀Javascript Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": ["jsf"],
+    "body": ["function ${1}(){", "  $0", "}"],
+    "description": "🚀Javascript Function"
+  },
+  "🚀Javascript Const Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": ["jsc"],
+    "body": ["const ${1} = () => {", "  $0", "}"],
+    "description": "🚀Javascript Const Function"
+  },
+  "🚀Javascript Async Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": ["jsaf"],
+    "body": ["async function ${1}(){", "  $0", "}"],
+    "description": "🚀Javascript Async Function"
+  },
+  "🚀Javascript Async Const Function": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": ["jsac"],
+    "body": ["const ${1} = async () => {", "  $0", "}"],
+    "description": "Javascript Async Const Function"
+  },
+  "🚀Javascript Fetch": {
+    "prefix": "jsfetch",
+    "body": [
+      "fetch(`$0`)",
+      ".then((response) => response.json())",
+      ".then((data) => console.log(data));"
+    ],
+    "description": "🚀Javascript Fetch"
+  },
+  "🚀Javascript Async Fetch": {
+    "prefix": "jsafetch",
+    "body": [
+      "async function fetchData(){",
+      "  const response = await fetch(`$0`);",
+      "  const data = await response.json();",
+      "  return data;",
+      "}"
+    ],
+    "description": "🚀Javascript Async Fetch"
+  },
+  "🚀React Native Styles": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "rns",
+    "body": [
+      "import { StyleSheet } from \"react-native\";",
+      "",
+      "export const styles = StyleSheet.create({",
+      "  $0",
+      "})"
+    ],
+    "description": "🚀React Native Styles"
+  },
+  "🚀React Native Styles Block": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "rnsb",
+    "body": ["${1}: {", " $0", "}"],
+    "description": "🚀React Native Styles Block"
+  },
+  "🚀React Native Styled Components": {
+    "scope": "javascript,typescript, javascriptreact,typescriptreact",
+    "prefix": "rnsc",
+    "body": ["export const $1 = styled.$2`", "  $0", "`;"],
+    "description": "🚀React Native Styled Components"
+  }
+}
