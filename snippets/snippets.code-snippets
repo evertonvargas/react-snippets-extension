@@ -4,6 +4,7 @@
     "prefix": "ref",
     "body": [
       "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -16,6 +17,7 @@
     "prefix": "recf",
     "body": [
       "export const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} = () => {",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -28,6 +30,7 @@
     "prefix": "redf",
     "body": [
       "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}(){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -40,6 +43,7 @@
     "prefix": "redcf",
     "body": [
       "const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} = () => {",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -56,6 +60,7 @@
       "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props{}",
       "",
       "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}({}:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -70,6 +75,7 @@
       "interface ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props{}",
       "",
       "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}({}:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}Props){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -82,6 +88,7 @@
     "prefix": "refn",
     "body": [
       "export function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}(){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -94,6 +101,7 @@
     "prefix": "recfn",
     "body": [
       "export const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/} = () => {",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -106,6 +114,7 @@
     "prefix": "redfn",
     "body": [
       "export default function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}(){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -118,6 +127,7 @@
     "prefix": "redcfn",
     "body": [
       "const ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/} = () => {",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -134,6 +144,7 @@
       "interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props{}",
       "",
       "export function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}({}:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
@@ -148,6 +159,7 @@
       "interface ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props{}",
       "",
       "export default function ${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}({}:${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}Props){",
+      "  ",
       "  return(",
       "    $0",
       "  );",
