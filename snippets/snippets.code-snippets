@@ -175,7 +175,7 @@
   },
   "🚀Javascript Const Function": {
     "scope": "javascript,typescript, javascriptreact,typescriptreact",
-    "prefix": ["jsc"],
+    "prefix": ["jscf"],
     "body": ["const ${1} = () => {", "  $0", "}"],
     "description": "🚀Javascript Const Function"
   },
@@ -187,7 +187,7 @@
   },
   "🚀Javascript Async Const Function": {
     "scope": "javascript,typescript, javascriptreact,typescriptreact",
-    "prefix": ["jsac"],
+    "prefix": ["jsacf"],
     "body": ["const ${1} = async () => {", "  $0", "}"],
     "description": "Javascript Async Const Function"
   },
