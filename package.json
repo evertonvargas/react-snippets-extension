@@ -10,9 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evertonvargas/react-snippets-extension"
+    "url": "https://github.com/evertonvargas/react-snippets-extension"
   },
-  "homepage": "https://github.com/evertonvargas/react-snippets-extension/blob/main/README.md",
   "keywords": [
     "vscode",
     "react",
@@ -20,7 +19,7 @@
     "snippets",
     "snippets"
   ],
-  "icon": "assets/icon.jpg",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -35,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "vsce": "^1.75.0"
+    "vsce": "^2.9.1"
   }
 }

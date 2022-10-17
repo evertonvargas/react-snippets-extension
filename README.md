@@ -1,7 +1,7 @@
 # React Fast and Productive Extension
 
 <p>
-  <img src="./assets/rue.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/rue.gif" width="800" title="hover text">
 </p>
 
 `start` + ((`modifier` + `action`) || `hook`) + `variant`
@@ -52,7 +52,7 @@ Can replace the modifiers and starts with ***u** (use)* followed by the first le
 | `rus` | ***R***eact ***u***se***S***tate |
 
 <p>
-  <img src="./assets/rue.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/rue.gif" width="800" title="hover text">
 </p>
 
 ## Exporting Components
@@ -71,7 +71,7 @@ When you are creating a new component you can use the following snippets to auto
 | `redcf` | ***R***eact ***E***xport ***D***efault ***C***onst ***F***unction |
 
 <p>
-  <img src="./assets/redcf.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/redcf.gif" width="800" title="hover text">
 </p>
 
 If you need a typescript function with a Props Interface, you can just add a ***t*** to the end of the snippet:
@@ -82,7 +82,7 @@ If you need a typescript function with a Props Interface, you can just add a ***
 | `redft` | ***R***eact ***E***xport ***D***efault ***F***unction (***T***ypeScript) |
 
 <p>
-  <img src="./assets/redft.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/redft.gif" width="800" title="hover text">
 </p>
 
 Now, if you want to go wild and use the *nested* and *typescript* variant **AT THE SAME TIME** (*insane…*) you should do this way:
@@ -93,7 +93,7 @@ Now, if you want to go wild and use the *nested* and *typescript* variant **AT T
 | `redfnt` | ***R***eact ***E***xport ***D***efault ***F***unction (***N***ested and ***T***ypeScript) |
 
 <p>
-  <img src="./assets/redfnt.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/redfnt.gif" width="800" title="hover text">
 </p>
 
 ### React Native (only)
@@ -120,7 +120,7 @@ Everything related to JavaScript will use the `js` prefix. You can create functi
 | `jsac` | ***J***ava***S***cript ***A***sync ***C***onst ***F***unction |
 
 <p>
-  <img src="./assets/jsac.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/jsac.gif" width="800" title="hover text">
 </p>
 
 ## JavaScript/TypeScript Utils
@@ -137,7 +137,7 @@ Here you can see some snippets to create a ***.fetch***. Te *async* one will cre
 | `jsafetch` | ***J***ava***S***cript ***A***sync ***F***etch |
 
 <p>
-  <img src="./assets/jsafetch.gif" width="300" title="hover text">
+  <img src="https://raw.githubusercontent.com/evertonvargas/react-snippets-extension/vscode-extension/assets/jsafetch.gif" width="800" title="hover text">
 </p>
 
 ## Contribution
